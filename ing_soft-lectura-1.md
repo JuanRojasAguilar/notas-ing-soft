@@ -77,4 +77,57 @@ Hay que aclarar que un ingeniero trata de darle una **aplicacion** a las cosas *
 
 Parnas (1999) resume las *responsabilidades* de un ingeniero de software:
 
-- 
+- Conocer el entorno para el que se desarrolla para poder documentar los requisitos a tener en cuenta de manera precisa y organizada para poder ser cosunlata de manera rapida
+- Participa en el diseño de los sistemas para determinar que **hardware** va a realizar que operacion del **software** para asegurar consistencia, disponibilidad, compatibilidad y rendimiento.
+- Diseña la estructura del **software** la divide en modulos ademas de documentar las desiciones de su diseño 
+- De ser necesario, integra aplicaciones ya existentes o comerciales.
+- Revisa y mejora los sistemas mediante pruebas para mantener la integridad del proyecto y la documentacion actualizada.
+
+### Etica y responsabilidad profesional en la ingenieria del software
+
+> Trata a los demas como te gustaria que te trataran a ti 
+
+Al igual que una ingenieria clasica, la ingenieria de software ha de estar dentro de un marco legal y social que debe limitar la libertad de los ingenieros de software
+
+> Sin una solida educacion etica especifica de su profesion, el ingeniero se convierte en un instrumento en las manos de otros
+
+En `El codigo de etica y practica profesional de ingenieria de software de la ACM / IEEE computer society` se encuentran los 8 principios basicos que se deben seguir a la hora de desarrollar software:
+
+1. **Publico**. Los ingenieros de software deben actuar de manera consciente en bien del interes general.
+2. **Cliente y contratista**. Los ingenieros ademas deben actuar de manera concorde con los intereses del cliente y contratista.
+3. **Producto**. Se deben asegurar que su producto cumple con los mayores estandares profesionales.
+4. **Juicio**. Deben mantener la integridad y honestidad en sus valoraciones profesionales.
+5. **Gestion**. Los gestores y lideres en el campo promoveran un enfoque etico en el desarrollo y mantenimiento de software.
+6. **Profesion**. Los ingenieros realizan avances en coherencia e integridad del interes general.
+7. **Compañeros**. Seran justos y apoyaran a sus compañeros de profesion.
+8. **Persona**. Participaran en el aprendizaje continuo de la practica de su profesion y en la promocion del comportamiento etico de la misma.
+
+### Fabricas de software
+
+Desde el comienzo de la crisis en España en el año 2008, bastantes sectiores se vieron afectados, sin embargo, el negocio de las llamadas *fabricas de software* no se vio afectado debido a que sale mas barato hacer el outsorcing del desarrollo y mantenimiento a estas *fabricas de software*.
+
+El termino de fabrica de software se acuña en el año 1968 por la **International Federation for Information Processing (IFIP)** y cambio el entorno laboral porque se estandarizaron los procesos implicados en su desarrollo y esto hizo que el software pasara de ser un servicio desestructurado a un servicio con un nivel de calidad optimo.
+
+En esta epoca las empresas de software se empezaron a ver los siguientes retos:
+- Adopcion de estandares para el desarrollo de software
+- Supervisar de manera efectiva el proceso de produccion
+- Estandarizar la fase de diseño de software
+- Reutilizar modulos de software ya desarrollados
+
+Asi mismo se vieron diferentes tipos de fabricas de software especializadas en diseños y desarrollos:
+
+(FS = Fabrica de software)
+- FS basada en la madurez de procesos
+- FS basada en la experiencia para el desarrollo de modulos
+- FS basada en la reutilizacion
+- FS basada en la renovacion de software
+- FS basada en tecnicas para la gestion de calidad
+
+Pero todas conllevan tres necesidades principales:
+
+1. **Mano de obra cualificada**: dificil de conseguir por la velocidad en la que se mueve la industria que muchas veces se mueve por modas
+2. **Mejor gestion de los proyectos de software**: Debido a la gran cantidad de fracasos en este campo, muchas veces dados por la falta de madurez de la propia industria y la creciente complejidad implicada en los sistemas a desarrollar
+3. **Adaptacion a las nuevas tecnologias**: Debido a la rapida evolucion de las tecnologias las empresas son impulsadas a innovar para seguir siendo competitivas
+
+# DESARROLLEN LOS EJERCICIOS AL FINAL DEL PDF QUE EL PROFE SUBIO AL GOOGLE CLASSROOM
+
