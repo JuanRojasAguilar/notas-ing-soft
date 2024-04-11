@@ -9,7 +9,7 @@ Se exploraran los conceptos de software y el porque se entienden como una discip
 Por otro lado, el **software** es un producto disenhado para un usuaro y engloba todo lo que pertenece al sistema de computo.
 Podemos asi pensar en la **ingenieria de software** como una disciplina que comprende los aspectos de la **produccion de software** (abarca desde su concepcion hasta su ditribucion y mantenimiento).
 
-Otra manera de verlo es como el ==estudio de metodos y herramientas== usadas para producir el software.
+Otra manera de verlo es como el `estudio de metodos y herramientas` usadas para producir el software.
 
 Aunque este clasificada y tratada como una ingenieria tiene *caracteristicas peculiares* que le hacen distinguirse de las otras:
 
@@ -39,7 +39,7 @@ En estos ultimos anhos la ingenieria del *software* se ha enfrentado a diferente
 
 Y fue debido a estos errores que se acunho la ingenieria de software como concepto para intentar responder el porque de estas situaciones. En ese tiempo (1968) el software era visto como un anhadido que era realizado de manera artesanal donde no habia ningun tipo de metodologia ni se realizaba una planeacion.
 
-La conclusion a la que habia llegado la OTAN fue que ==el software como producto tecnologico debia ser tratado como una ingenieria mas que aplicara sus principios y los modificara segun su necesidad== para asi crear metodos mas *cuantitativos, sistematicos y menos artesanales*. Con tal se puede decir que la ingenieria de software es una disciplina joven siendo diferente a la ingenieria de **sistemas** que se enfoca en la evolucion de sistemas complejos y no solo del software.
+La conclusion a la que habia llegado la OTAN fue que `el software como producto tecnologico debia ser tratado como una ingenieria mas que aplicara sus principios y los modificara segun su necesidad` para asi crear metodos mas *cuantitativos, sistematicos y menos artesanales*. Con tal se puede decir que la ingenieria de software es una disciplina joven siendo diferente a la ingenieria de **sistemas** que se enfoca en la evolucion de sistemas complejos y no solo del software.
 
 Con el tiempo se han visto mas softwares en los sistemas (llegando casi al 90%) y sus tecnicas se han ido refinando para sus necesidades particulares y se han ido aplicando en la ingenieria de sistemas. La evolucion del hardware y la caida de sus precios ha sido la razon por la cual los softwares se han ido complicando mas haciendo mas lejano el dia en el que se acabe la *crisis del software*.
 
@@ -63,7 +63,7 @@ Ince (1993) afirma que los cambios y la velocidad experimentada en el software e
 - Crear diferentes maneras de validar la validez de las soluciones presentadas en el software.
 - Mantener tecnicas de desarrollo que minimicen los efectos que dan las modificaciones y evolucion del software
 
-Ince defiende el enfoque ingenieril del software mediante ==el uso de herramientas y metodologias== sin dejar de tener en cuenta las caracteristicas inherentes a el mismo que ==permite gestionar los cambios y evolucion del software a lo largo del tiempo==
+Ince defiende el enfoque ingenieril del software mediante `el uso de herramientas y metodologias` sin dejar de tener en cuenta las caracteristicas inherentes a el mismo que `permite gestionar los cambios y evolucion del software a lo largo del tiempo`
 
 ### Ingenieria de software vs ciencias de la computacion
 
