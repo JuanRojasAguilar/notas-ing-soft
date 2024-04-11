@@ -52,3 +52,26 @@ El *modelo en cascada (waterfall model)* fue el **primer paradigma** de proceso 
 Desgraciadamente, este modelo es poco realista debido a que el modelo es poco flexible y es muy improbable encontrar software que se beneficie de esto.
 
 ![Imagen del modelo cascada](./images/ing_sof_lectura-2_1.png)
+
+#### Modelo en espiral
+
+Desarrollada por Boehm (1988) y representa el proceso como una espiral que `comprende tanto el modelo **iterativo** y el modelo **incremental**` debido a su diseño **exclusivo** para soportar iteraciones que añaden funcionalidades al sistema hasta llegar a tener un sistema completo.
+
+Cada bucle puede significar una fase del proceso
+
+1. Viabilidad del sistema
+2. Definicion de requistos
+3. Diseño del sistema
+4. etc...
+
+Y asi mismo este bucle se divide en cuatro:
+
+1. Establecimiento de objetivos
+2. Evaluacion y reduccion de riesgos
+3. Desarrollo y validacion
+4. Planificacion
+
+![Imagen del modelo espiral](./images/ing_sof_lectura-2_2.png)
+
+![Imagen del modelo espiral](./images/ing_sof_lectura-2_3.png)
+
