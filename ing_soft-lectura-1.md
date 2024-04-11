@@ -43,4 +43,38 @@ La conclusion a la que habia llegado la OTAN fue que ==el software como producto
 
 Con el tiempo se han visto mas softwares en los sistemas (llegando casi al 90%) y sus tecnicas se han ido refinando para sus necesidades particulares y se han ido aplicando en la ingenieria de sistemas. La evolucion del hardware y la caida de sus precios ha sido la razon por la cual los softwares se han ido complicando mas haciendo mas lejano el dia en el que se acabe la *crisis del software*.
 
+Desarrollar software puede *parecer* dificil y es debido que son muy pocos los productos que han sido realmente terminados a tiempo, dentro del presupuesto y cumpliendo los requisitos. Aqui una tabla de errores cometidos por software.
 
+|Anho|Entidad|Descripcion|Impacto|
+|----|-------|-----------|-------|
+|2015|Avion A400M|El sotware del motor hizo que el avion se estrelle en sevilla, cuatro tripulantes muertos y dos heridos.|Alto|
+|2013|Juzgado de Madrid|Un fallo informatico colapsa 46 juzgados durante 12 dias|Media|
+|2012|Gobierno de Canarias|Se pierden los datos fundamentales acerca de la erupcion volcanida de 'El hierro'|Media|
+|2012|Gobierno de Navarra|Se interrumpen los servicios de Salud, Hacienda y Desarrollo Rural|Medio|
+|2012|Aeropuerto de Malaga|Un fallo deja a oscuras la torre de control|Alto|
+|2011|Periodico 'El Pais'|Casi se cancela la impresion de su edicion dominical por un fallo y la falta de tecnicos|Medio|
+|2003|Vodafone Espanha|La red telefonica cayo dejando sin servicio a mas de 8 millones de usuarios|Alto|
+
+Es un proceso arduo y costoso debido a su complejidad, cambio constante y la necesidad de satisfacer a un cliente. Y fue en estos esfuerzos donde se intento usar las practicas clasicas ingenieriles al software sin mucho exito.
+
+Ince (1993) afirma que los cambios y la velocidad experimentada en el software es una representacion 1 a 1 de la velocidad en como se dan los cambios en el mundo actual y para poder adaptarse a estos cambios sociales se enumeran tres requisitos que deben ser satisfechos en el desarrollo de estos productos.
+
+- Minimizar la complejidad de un sistema.
+- Crear diferentes maneras de validar la validez de las soluciones presentadas en el software.
+- Mantener tecnicas de desarrollo que minimicen los efectos que dan las modificaciones y evolucion del software
+
+Ince defiende el enfoque ingenieril del software mediante ==el uso de herramientas y metodologias== sin dejar de tener en cuenta las caracteristicas inherentes a el mismo que ==permite gestionar los cambios y evolucion del software a lo largo del tiempo==
+
+### Ingenieria de software vs ciencias de la computacion
+
+Hay que aclarar que un ingeniero trata de darle una **aplicacion** a las cosas **descubiertas** por los **cientificos** para un desarrollo social. ==Todo ingeniero debe asegurar su funcionalidad, eficacia y eficiencia.==
+
+> Los ingenieros de software son los profesionales que aplican los conocimientos en pos de construir productos de software y sus restricciones son de presupuesto, duracion, tiempo de respuesta del sistema y tamanho de la aplicacion
+
+> El cientifico de computacion busca nuevos conocimientos para que los ingenieros puedad tener nuevas maneras de resolver problemas
+
+*Un ingeniero de software es un programador pero un programador no es un ingeniero de software pues el acto de escribir el codigo es uno entre tantos que competen a la ingenieria de software*
+
+Parnas (1999) resume las *responsabilidades* de un ingeniero de software:
+
+- 
