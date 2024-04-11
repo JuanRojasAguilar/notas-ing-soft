@@ -67,7 +67,7 @@ Ince defiende el enfoque ingenieril del software mediante ==el uso de herramient
 
 ### Ingenieria de software vs ciencias de la computacion
 
-Hay que aclarar que un ingeniero trata de darle una **aplicacion** a las cosas **descubiertas** por los **cientificos** para un desarrollo social. ==Todo ingeniero debe asegurar su funcionalidad, eficacia y eficiencia.==
+Hay que aclarar que un ingeniero trata de darle una **aplicacion** a las cosas **descubiertas** por los **cientificos** para un desarrollo social. `Todo ingeniero debe asegurar su funcionalidad, eficacia y eficiencia.`
 
 > Los ingenieros de software son los profesionales que aplican los conocimientos en pos de construir productos de software y sus restricciones son de presupuesto, duracion, tiempo de respuesta del sistema y tamanho de la aplicacion
 
