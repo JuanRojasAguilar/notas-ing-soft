@@ -55,7 +55,7 @@ Desgraciadamente, este modelo es poco realista debido a que el modelo es poco fl
 
 #### Modelo en espiral
 
-Desarrollada por Boehm (1988) y representa el proceso como una espiral que `comprende tanto el modelo **iterativo** y el modelo **incremental**` debido a su diseño **exclusivo** para soportar iteraciones que añaden funcionalidades al sistema hasta llegar a tener un sistema completo.
+Desarrollada por Boehm (1988) y representa el proceso como una espiral que `comprende tanto el modelo iterativo y el modelo incremental` debido a su diseño **exclusivo** para soportar iteraciones que añaden funcionalidades al sistema hasta llegar a tener un sistema completo.
 
 Cada bucle puede significar una fase del proceso
 
@@ -74,4 +74,52 @@ Y asi mismo este bucle se divide en cuatro:
 ![Imagen del modelo espiral](./images/ing_sof_lectura-2_2.png)
 
 ![Imagen del modelo espiral](./images/ing_sof_lectura-2_3.png)
+
+#### Ingenieria de Software basada en componentes (CBSE)
+
+Aunque sea de manera informal, en todos los proyectos de software se va a dar la *reutilizacion* siendo este enfoque basado en la creacion de modulos reutilizables
+
+> Un software que use el modelo de componentes podra ser distribuido e integrado a un cliente si hay un estandar de diseño y composicion
+
+Esto expone el interes por integrar componentes de manera sistematica al software en vez de construirlo desde cero.
+
+![Imagen del modelo espiral](./images/ing_sof_lectura-2_4.png)
+
+*mencionamos tambien a otro enfoque muy relacionado llamada* **arquitectura orientada a servicios (SOA)** *en el cual la funcionalidad se basa no en modulos sino servicios que se comunican mediante protocolos de mensajes*
+
+Desde un punto de vista conceptual se puede considerar a un servicio como un componente de la solucion aunque en realidad estos servicios se componen por componentes que se comunican a traves de interfaces bien definidas.
+
+El modelo SOA se destaca por:
+- **Autonomo**. Cada servicio se mantiene, desarrolla, despliega y evoluciona de manera independiente
+- **Distribuido**. Estos servicios pueden estar en cualquier red que soporte los protocolos de comunicacion
+- **Debilmente acoplado**. Cada servicio es independiente y asi mismo puede ser reemplazado y cambiado sin afectar la solucion global.
+- **Compatibilidad basada en politicas**. Hace referencia al modo de envio, protocolos y seguridad.
+
+Estos tipos de aplicaciones SOA son muy conocidad por el modelo de servicio *Software as a Service (SaaS)* donde los usuarios acceden a travez de un navegador para usar el servicio.
+
+### El proceso unificado de desarrollo de software
+
+El **proceso unificado de desarrollo de software (USDP)** o tambien conocido como **proceso unificado (UP)** corresponde a un proceso de desarrollo basado en componentes a travez de moldes bien definidos. El componente seria una parte reemplazable que se ajusta para cumplir un objetivo.
+
+Ademas el proceso unificado utiliza **Unified Modeling Language (UML)** para diseñar sus artefactos. Los aspectos distintivos de UP son:
+- **Dirigido a los casos de uso**. El proceso de desarrollo se da a medida que los casos de uso aparecen.
+- **Centrado en la arquitectura**. Al igual que en un edificio se incluye los aspectos estaticos y dinamicos mas importantes en el sistema.
+- **Iterativo e incremental**. La idea es dividir el peso en varios mini-proyectos que acumulados dan los incrementos de funcionalidades del software y cada uno de estos proyectos tienen los mismos elementos que un proyecto de escala completa. Cada incremento presenta los cinco **flujos de trabajo**
+
+1. Requisitos
+2. Analisis
+3. Diseño 
+4. Implementacion
+5. Pruebas
+
+Este proceso se va a repetir a lo largo de los ciclos de desarrollo, cada uno siendo una version y en general se ven divididos en cuatro fases:
+
+1. **Inicio**. Durante se describe el producto final y se presenta el analisis del producto.
+2. **Elaboracion**. Se especifican los casos de uso y se diseña la arquitectura del sistema
+3. **Construccion**. Se crea el producto y la linea base de artifactos revisados y aprobados
+4. **Transicion**. El producto se convierte en la etapa de *beta* dpmde se corrigen errores e incorporan mejoras.
+
+Cada fase es marcada con un **milestone (hito)** definido por el estado de los artefactos.
+
+![Fases de desarrollo e iteraciones](./images/ing_sof_lectura-2_5.png)
 
