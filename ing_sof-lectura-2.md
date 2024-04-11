@@ -24,5 +24,31 @@ Toda actividad de desarrollo de software va a generar dos tipos de artefactos:
 
 Todo proceso de desarrollo de software debe definir el problema solucionado para favorecer la comprencion del codigo y el diseño de la solucion asi anticipando de manera ordenada los problemas para poder elaborar las formas de prevenir y resolver riesgos potenciales. Humphfrey (1990) destaca que el mayor interes del software debe ser la **calidad**.
 
+`Requisitos de usuario -> Proceso de desarrollo de software -> Producto software`
 
+Sommerville (2005) destaca cuatro actividades fundamentales comunes en los procesos de desarrollo:
 
+- **Especificacion**. Clientes e ingenieros definen que van a construir y las restricciones que tendra.
+- **Desarrollo**. Se diseña e implementa a la vez que se verifica su calidad.
+- **Validacion**. Se valida que sea valioso para los clientes teniendo en cuenta los requisitos
+- **Evolicion**. El software cambia para adaptarse a los cambios del cliente y/o mercado.
+
+### Modelo de proceso software
+
+Un **modelo de proceso** de desarrollo es una **descripcion simplificada** de un proceso de desarrollo real. Aun tratandose de una *simplificacion* del proceso es esto su principal ventaja: un modelo de proceso software deberia ser **facil de entender** por sus desarrolladores.
+
+Cada desarrollo va a adoptar un modelo que mejor se le adapte dependiendo de su **complejidad** y sus **caracteristicas** del sistema. La eleccion inadecuada del modelo de proceso va a tener un gran impacto en la calidad del software.
+
+#### Modelo en cascada
+
+El *modelo en cascada (waterfall model)* fue el **primer paradigma** de proceso de desarrollo de software y se deriva de los procesos usados en las otras ingenierias de productos fisicos. Toma las *cuatro actividades comunes (especificacion, desarrollo, validacion y evolucion),* y presenta cada una como un momento distinto.
+
+1. Especificacion de requisitos.
+2. Diseño del software.
+3. Implementacion
+4. Pruebas
+*Cada fase debe ser aprobada para poder continuar a la siguiente*
+
+Desgraciadamente, este modelo es poco realista debido a que el modelo es poco flexible y es muy improbable encontrar software que se beneficie de esto.
+
+![Imagen del modelo cascada](./images/ing_sof_lectura-2_1.png)
