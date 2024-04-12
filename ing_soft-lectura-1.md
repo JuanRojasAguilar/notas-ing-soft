@@ -129,5 +129,5 @@ Pero todas conllevan tres necesidades principales:
 2. **Mejor gestion de los proyectos de software**: Debido a la gran cantidad de fracasos en este campo, muchas veces dados por la falta de madurez de la propia industria y la creciente complejidad implicada en los sistemas a desarrollar
 3. **Adaptacion a las nuevas tecnologias**: Debido a la rapida evolucion de las tecnologias las empresas son impulsadas a innovar para seguir siendo competitivas
 
-# DESARROLLEN LOS EJERCICIOS AL FINAL DEL PDF QUE EL PROFE SUBIO AL GOOGLE CLASSROOM
+# DESARROLLEN LOS EJERCICIOS AL FINAL DEL PDF QUE EL PROFE SUBIO AL GOOGLE CLASSROOM PAGINA 22
 

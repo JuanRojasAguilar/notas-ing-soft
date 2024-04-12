@@ -123,3 +123,47 @@ Cada fase es marcada con un **milestone (hito)** definido por el estado de los a
 
 ![Fases de desarrollo e iteraciones](./images/ing_sof_lectura-2_5.png)
 
+### Proceso Unificado de Rational
+
+**Rational Unified Process (RUP)** es un producto comercial de *IBM* realizado por la colaboracion del UML y el USDP. En otras palabras `RUP es una variante comercial de UP`.
+
+Este defiende que los modelos convencionales presentan una sola perspectiva mientras el se desarrolla en tres:
+
+1. **Perspectiva estatica**. Muestra los flujos de trabajo
+- *Modelado de negocio* que modela los procesos respecto a los casos de uso
+- *Requisitos* que identifican los actores que modelan los requisitos
+- *Analisis y diseño* documenta el modelo de diseño con otros modelos (arquitectonicos, componentes, objetos y secuencia)
+- *Implementacion, pruebas, despliegue, gestion de configuracion y cambio, gestion del proyecto y entorno*
+
+2. **Perspectiva dinamica**. Muestra las fases del proceso a lo largo del tiempo.
+
+3. **Perspectiva practica**. Sugiere las buenas practicas a realizar en el proceso.
+
+Esta distincion entre fases y flujos de trabajos es una de las innovaciones mas importantes de *RUP*.
+
+`Las fases son dinamicas y tienen objetivos. Los flujos son estaticos y tienen actividades no asociadas a ninguna fase.`
+
+![Proceso Unificado de Rational](./images/ing_sof_lectura-2_6.png)
+
+Esto es util cuando en el documento, codigo y diseño se comparten los mismos conceptos con la misma palabra. *Ej: tener una clase Transaccion en el codigo que signifique lo mismo en el diseño y en la documentacion del usuario*
+
+Las buenas practicas recomendadas por RUP para el desarrollo de sistemas son:
+
+- **Desarrollar software de manera iterativa** Planificar los incrementos basandose en las prioridades del cliente priorizando caracteristicas sobre otras.
+- **Gestion de requisitos**. Documentar los requisitos y llevar el control de los cambios para analizar el impacto sobre el sistema antes de aceptarlos.
+- **Uso de arquitecturas basadas en modulos**.
+- **Modelado visual del software**. Con modelos graficos UML.
+- **Verificar la calidad del sistema**. Comprobar que el software cumple los estandares de calidad,
+- **Controlar los cambios que se producen en el software**. Usa procesidmientos para controlar las modificaciones que se van a producir en el sistema.
+
+`Aunque RUP no puede ser adaptado a todos los proyectos, si se ha acercado a ser un acercamiento valido a un framework con elementos que podrian ser adaptados a cada caso`
+
+Sin embargo no se encuentran muchas directrices que indiquen como se harian estas adaptaciones, para esto, *Hanssen, Westerheim y Bjørson (2005)* realizaron un estudio para describir estas adaptaciones de RUP
+
+1. Se adapta de manera individual, lo cual implica mucho trabajo
+2. Se adapta generando otra version del framework, un subconjunto de RUP
+3. La organizacion describe los distintos proyectos que abarcara y el framework se adapta a cada uno de ellos.
+
+Aun con esto se han detectado diversos problemas y limitaciones en RUP. Asi ha nacido una nueva aproximacion conocida como **Essential Unified Proces (EssUP)** que recoge diversas tecnicas de su predecesor y de el modelo **Capability Maturity Model Integration (CMMI)** y el desarrollo agil para su aplicacion a los proyectos.
+
+# DESARROLLEN LOS EJERCICIOS AL FINAL DEL PDF QUE EL PROFE SUBIO AL GOOGLE CLASSROOM PAGINA 24
