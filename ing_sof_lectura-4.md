@@ -18,4 +18,4 @@ En los anhos 90 la industria se enfrenta a sistemas de despliegue y distribucion
 
 #### Lenguajes Formales
 
-La teoria de los lenguajes formales considera a los lenguajes como cadenas de caracteres basados en alfabetos con conjuntos infinitos de reglas llamadas "gramaticas". Un alfabeto es un conjunto finito no vacio y los elementos de el se llaman letras, una palabra es una cadena finita formada por cero o mas letras, una palabra vacia se denota como &#955
+La teoria de los lenguajes formales considera a los lenguajes como cadenas de caracteres basados en alfabetos con conjuntos infinitos de reglas llamadas "gramaticas". Un alfabeto es un conjunto finito no vacio y los elementos de el se llaman letras, una palabra es una cadena finita formada por cero o mas letras, una palabra vacia se denota como &#955;
