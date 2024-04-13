@@ -19,3 +19,17 @@ En los anhos 90 la industria se enfrenta a sistemas de despliegue y distribucion
 #### Lenguajes Formales
 
 La teoria de los lenguajes formales considera a los lenguajes como cadenas de caracteres basados en alfabetos con conjuntos infinitos de reglas llamadas "gramaticas". Un alfabeto es un conjunto finito no vacio y los elementos de el se llaman letras, una palabra es una cadena finita formada por cero o mas letras, una palabra vacia se denota como &#955;
+
+- Una gramatica es un *cuadruplo ordenado* G = (V~N~V~T~X~0~,F)
+- V~N~ y V~T~ son alfabetos disjuntos. Siendo V~N~ elementos **no-terminales** y V~T~ son **terminales**.
+- X~0~ &#8714; V~N~ se conoce como **letra inicial**
+- F es un conjunto finito d pares ordenados (P, Q) donde Q es una palabra del alfabeto V = V~N~ &#8746; V~T~. P es una palabra de V que contiene al menos una letra de V~N~.
+- Los elementos (P, Q) de F s denominan **reglas de escritura** y se escribe P -> Q.
+
+En general las gramaticas se pueden considerar *descripciones estructurales* de los sistemas y por lo tanto incluyen:
+- **Gramaticas de contexto libre**. Permiten la definicion de la sintaxis concreta de los lenguajes de programacion.
+- **Diccionarios de clases**.
+- **XML Schemas** Permiten la definicion de formatos para el intercambio en aplicaciones, asi cmo otras formas de gramaticas para grafos y arboles (estructuras de grafos).
+
+Los antiguos lenguajes de programacion aparecieron para areas especificas, COBOL para procesos de negocio, FORTRAN para calculo numero y Lisp para procesamiento de simbolos sin embargo han ido evolucionando hasta lenguajes de proposito general (GPL) y esto ha generado la necesidad de un soporte dado por lenguajes especializados para resolver problemas en dominios concetros y son conocidos por ser lenguajes de dominio especifico (DSL).
+
