@@ -20,11 +20,11 @@ En los anhos 90 la industria se enfrenta a sistemas de despliegue y distribucion
 
 La teoria de los lenguajes formales considera a los lenguajes como cadenas de caracteres basados en alfabetos con conjuntos infinitos de reglas llamadas "gramaticas". Un alfabeto es un conjunto finito no vacio y los elementos de el se llaman letras, una palabra es una cadena finita formada por cero o mas letras, una palabra vacia se denota como &#955;
 
-- Una gramatica es un *cuadruplo ordenado* G = (V<sub>N</sub>V<sub>T</sub>X~0~,F)
-- V<sub>N</sub> y V<sub>T</sub> son alfabetos disjuntos. Siendo V~N~ elementos **no-terminales** y V~T~ son **terminales**.
-- X~0~ &#8714; V~N~ se conoce como **letra inicial**
-- F es un conjunto finito d pares ordenados (P, Q) donde Q es una palabra del alfabeto V = V~N~ &#8746; V~T~. P es una palabra de V que contiene al menos una letra de V~N~.
-- Los elementos (P, Q) de F s denominan **reglas de escritura** y se escribe P -> Q.
+- Una gramatica es un *cuadruplo ordenado* G = (V<sub>N</sub>V<sub>T</sub>X<sub>O</sub>,F)
+- V<sub>N</sub> y V<sub>T</sub> son alfabetos disjuntos. Siendo V<sub>N</sub> elementos **no-terminales** y V<sub>T</sub> son **terminales**.
+- X<sub>O</sub> &#8714; V<sub>N</sub> se conoce como **letra inicial**
+- F es un conjunto finito d pares ordenados (P, Q) donde Q es una palabra del alfabeto V = V<sub>N</sub> &#8746; V<sub>T</sub>. P es una palabra de V que contiene al menos una letra de V<sub>N</sub>.
+- Los elementos (P, Q) de F s denominan **reglas de escritura** y se escribe P &#2190; Q.
 
 En general las gramaticas se pueden considerar *descripciones estructurales* de los sistemas y por lo tanto incluyen:
 - **Gramaticas de contexto libre**. Permiten la definicion de la sintaxis concreta de los lenguajes de programacion.
