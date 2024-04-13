@@ -24,7 +24,7 @@ La teoria de los lenguajes formales considera a los lenguajes como cadenas de ca
 - V<sub>N</sub> y V<sub>T</sub> son alfabetos disjuntos. Siendo V<sub>N</sub> elementos **no-terminales** y V<sub>T</sub> son **terminales**.
 - X<sub>O</sub> &#8714; V<sub>N</sub> se conoce como **letra inicial**
 - F es un conjunto finito d pares ordenados (P, Q) donde Q es una palabra del alfabeto V = V<sub>N</sub> &#8746; V<sub>T</sub>. P es una palabra de V que contiene al menos una letra de V<sub>N</sub>.
-- Los elementos (P, Q) de F s denominan **reglas de escritura** y se escribe P &#2190; Q.
+- Los elementos (P, Q) de F s denominan **reglas de escritura** y se escribe P &#10132; Q.
 
 En general las gramaticas se pueden considerar *descripciones estructurales* de los sistemas y por lo tanto incluyen:
 - **Gramaticas de contexto libre**. Permiten la definicion de la sintaxis concreta de los lenguajes de programacion.
