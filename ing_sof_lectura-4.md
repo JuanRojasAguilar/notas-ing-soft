@@ -90,5 +90,72 @@ UML nace de los esfuerzos de Booch, Rumbaugh y Jacobson que unieron sus tecnicas
 3. Los tres autores (conocidos como los tres amigos) esperaba que la colaboracion diera pie a abarcar problemas que ninguno haya podido abarcar correctamente.
 *El primer trabajo dio como fruto las versiones UML 0.9 y 0.91*
 
+En el anho 2000, UML 1.4 introduce la *semantica de accion*. Describe el comportamiento de un conjunto de acciones primitivas que se pueden expresar mediante estis lenguajes. Las actualizaciones UML 2.x introdujeron bastante sintaxis visual nueva clarificando sintaxis anterior.
 
+![Evolucion de lenguajes de modelado](ing_sof_lectura-4_1.png)
+
+Un modelo UML no es simplemente un diagrama, es una serie de reglas para modelar sin embargo los modelos que usa se pueden llamar *modelo diagramatico*. De acuerdo a Fowler los diagramas UML pueden tener tres finalidades:
+
+1. **Sketch**. Diagramas informales e incompletos creados para analizar partes mas complejas en el dominio.
+2. **Blueprint**. Son los diagramas de disenho mas o menos detallados para realizar *ingenieria inversa* o *ingenieria directa*
+3. **Lenguaje de programacion**. Aqui entran especificaciones completas y ejecutables de un sitema software en UML llevando a los que trabajan con UML a no ver ni una linea de codigo en todo el disenho.
+
+![Evolucion de lenguajes de modelado](ing_sof_lectura-4_2.png)
+
+Un modelo UML completo siempre va a contener diagramas de estructura y comportamientos.
+
+> Un modelo UML es un conjunto logico de elementos que representan algo (semantica), definidos con una sintaxis abstracta (metamodelo) y que pueden representarse de acuerdo a su sintaxis concreta (notacion) donde todo significa una realidad y cada elemento una pequenha parte de esa realidad.
+
+El **metamodelo** es un modelo que define un lenguaje de modelado que explica la generacion de otros modelos UML validos.
+
+![Modelo de sintaxis abstracta](ing_sof_lectura-4_3.png)
+
+La **notacion** describe la representacion grafica usada para un elemento del modelo.
+
+![Notacion](ing_sof_lectura-4_4.png)
+
+La **semantica** es descrita en lenguaje natural y describe los elementos del modelo: que representan y como se comportan. Tambien se encarga de sus restricciones (Representada como una cadena de caracteres entre llaves).
+
+![Semantica](ing_sof_lectura-4_5.png)
+
+Ademas de todo esto, a partir de UML 2.0 se han definido los *puntos de variacion semantica* que son usados para dar libertad de interpretacion en dominios concretos. Un perfil de UML amplia el metamodelo de UML para ser adaptado a dominios concretos. (Ejemplo: OMG-SPT es un modelo UML con sistema de planificacion de tareas en tiempo real).
+
+Un *perfil* es una tecnica de metamodelado que contiene estereotipos (metaclases) y valores (metaatributos) adaptados para un dominio concreto.
+
+`Un estereotipo es una extension del vocabulario UML que crea nuevos bloques de construccion basandose en los ya existentes del metamodelo UML.`
+
+![estereotipo](ing_sof_lectura-4_6.png)
+
+*Debido a lo popular de UML puede este usarse como metodo de comunicacion con los stakeholders*
+
+### Herramientas CASE
+
+*ingenieria de software asistida por ordenador, CASE*
+
+Proporciona soporte automatizado para los procesos software, ayudando con los procesos de requisitos, disenho, desarrollo y prueas. Asi constituyen al CASE los editores de disenho, diccionario de datos, compiladores, IDEs, etc.
+
+Las CASE se pueden clasificar en:
+
+- **Herramientas**. Pueden ser de proposito general (stand-alone) o agrupar en bancos de trabajo (workbenches)
+- **Workbenches**. Conjunto de herramientas que dan soporte al desarrollo del sistema, su producto es un codigo ejecutable y la documentacion.
+- **Entornos**. Dan soporte al todo, o al menos a una parte sustancial, del proceso software. Suelen comprender varios workbenchs integrados.
+
+![herramientas CASE](ing_sof_lectura-4_7.png)
+
+Estas herramientas pueden ofrecer:
+
+- Representacion grafica.
+- Correccion sintactica
+- Coherencia entre diferentes diagramas.
+- Integracion con otras aplicaciones de modelado
+- Trabajo multiusuario
+- Reutilizacion
+- Generacion de codigo
+
+Y en cuanto funcionalidades:
+
+- Especificar un sistema sin importar la plataforma donde va a ser usado.
+- Especificar plataformas o especificaciones de plataformas ya existentes
+- Seleccionar una plataforma determinada para nuestro sistema.
+- Transformar la especificacion del sistema a una especificacion para la plataforma de desarrollo.
 
