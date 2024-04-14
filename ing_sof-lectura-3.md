@@ -158,9 +158,9 @@ Arlow y Neustadt (2005) habla de dos clases principales de disenho:
 - El refinamiento del analisis en donde se agregan los detalles de su implementacion
 - El dominio de la solucion que proporciona herramientas para implementar el software
 
-![Principio d clasificacion](./images/ing_sof_lectura-3_6.png)
+![Principio d clasificacion](./images/ing_sof_lectura-3_7.png)
 
-![Principio d clasificacion](./images/ing_sof_lectura-3_6.png)
+![Principio d clasificacion](./images/ing_sof_lectura-3_8.png)
 
 Pressman define sus propias clases de disenho en cinco:
 
@@ -176,7 +176,7 @@ Pressman define sus propias clases de disenho en cinco:
 
 `A medida que esta arquitectura se va creando, el nivel de abstraccin se va reduciendo` y cabe aclarar que hay que tener en cuenta todo lo que haga parte del dominio del problema mas no solo de la solucion.
 
-![Principio d clasificacion](./images/ing_sof_lectura-3_7.png)
+![Principio d clasificacion](./images/ing_sof_lectura-3_9.png)
 
 |**Recomendacion**|**Descripcion**|
 |-----------------|---------------|
