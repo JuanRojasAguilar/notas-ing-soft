@@ -29,5 +29,62 @@ Por otro lado es mejor eliminar las relaciones <<include>> y <<extend>> porque s
 
 ![Include Extend](./images/ing_sof_lectura-5_3.png)
 
+Es bueno comentar las *relaciones de generalizacion* que es el momento en donde dos o mas roles tienen el mismo caso de uso, estas generalizaciones se deben evitar en lo posible y es nuestro deber usar tecnicas de modelado para evitar estas situaciones.
 
+![Relaciones de generalizacion](./images/ing_sof_lectura-5_4.png)
+
+![Generalizacion causos de uso](./images/ing_sof_lectura-5_5.png)
+
+### Modelado Estatico Avanzado
+
+El modelo de clases es una pieza clave para la comunicacion entre analistas, que pueden ver las relaciones entre las clases.
+
+No olvidemos que el modelo conceptual se encarga del analisis que indentifica las clases, atributos y operaciones; el modelo de software corresponderia a las claes, atributos y metodos que correspondes con los conceptos de la plataforma de desarrollo.
+
+Tambien podemos crear un modelo previo al modelo conceptual, el llamado **modelo de entorno** que es esa realidad que rodea al sistema informatico y que interactua.
+
+Describiremos la serie de elementos que forman parte de la vista estatica del sistema.
+
+#### Asociaciones reflexivas
+
+Tambien llamadas recursivas es una asociacion enlazada consigo misma, presenta las siguientes caracteristicas.
+
+- Los enlaces pueden conectar dos instancias diferentes de la misma clase pero tambien una instancia consigo misma.
+- Los nombres del rol son necesarios para distinguir los extremos de la asociacion
+
+![Asociacion Recursiva](./images/ing_sof_lectura-5_6.png)
+
+#### Clase asociacion
+
+Es esa clase que tiene las propiedades de una clase y una asociacion, una clase asociacion presenta las siguientes caracteristicas:
+
+- Como es un elemento unico, el nombre tambien es unico
+- Al igual que otra asociacion, no puede conectar dos mismos objetos mas de una vez. Si quisiera representar el registro historico se tendria que poner la restriccion {nonunique} en cada extremo de la asociacion.
+
+![Clase asociacion](./images/ing_sof_lectura-5_7.png)
+
+Si se desea programar en una plataforma completa, la asociacion se tendra que transformar en una clase intermedia, haciendo cruce de cardinales.
+
+![Cruze de carnidales](./images/ing_sof_lectura-5_8.png)
+
+#### Asociacion n-aria
+
+Enlaza n clases
+- No permite especificar la direccion del nombre, la navegabilidad ni las asociaciones de agregacion
+- Admite clases asociacion
+- Se especifica en un extremo la cantidad de instancias para cualquier posible combinacion de instancias
+- La multiplicidad minima suele ser 0
+- efecto *rebote del uno* inidica que cuando la especificidad en un extremo es de 1, o superior, implica que si o si debe haber al menos un enlace para las combinaciones.
+
+![Rebote del uno](./images/ing_sof_lectura-5_9.png)
+
+### Modelado dinamico avanzado
+
+Gracias a la vista estatica del sistema podemos determinar la estructura completa del sistema a implementar. Sin embargo esta vista no es sufciente para hacer la implementacion y es necesario generar de manera grafica esos comportamientos que requieran un tratamiento especial.
+
+Hay varios modelos dinamicos dados por UML para especificar el comportamiento del sistema.
+
+#### La ley de Demeter
+
+Esta ley permite definir que instancias pueden enviar mensajes a 
 
