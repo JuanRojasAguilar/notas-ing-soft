@@ -8,7 +8,7 @@ Se estudiara el proceso de desarrollo y los modelos mas comunes a la hora de imp
 
 > Un proceso define: Quien esta haciendo `que, cuando y como` para alcanzar un objetivo
 
-*Este objetivo puede ser desarrollar, modificar o expandir un software ya existente*
+*El objetivo puede ser desarrollar, modificar o expandir un software ya existente*
 
 Este proceso de desarrollo de software se ha definido de diferentes maneras
 - *El conjunto de actividades necesarias para transformar los requisitos en un sistema. Jacobson, Booch y Raumbaugh.*
@@ -31,7 +31,7 @@ Sommerville (2005) destaca cuatro actividades fundamentales comunes en los proce
 - **Especificacion**. Clientes e ingenieros definen que van a construir y las restricciones que tendra.
 - **Desarrollo**. Se diseña e implementa a la vez que se verifica su calidad.
 - **Validacion**. Se valida que sea valioso para los clientes teniendo en cuenta los requisitos
-- **Evolicion**. El software cambia para adaptarse a los cambios del cliente y/o mercado.
+- **Evolucion**. El software cambia para adaptarse a los cambios del cliente y/o mercado.
 
 ### Modelo de proceso software
 
